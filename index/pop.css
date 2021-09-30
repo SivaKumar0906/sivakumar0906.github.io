@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,700&display=swap');
+body{
+font-family: 'Ubuntu', sans-serif;
+}
+.main-shit{
+margin:10px;
+position:absolute;
+border:1px solid black;
+text-align:center;
+background-color: hsla(0, 0%, 0%, 0.411);
+color:white;
+left:30%;
+width:45%;
+min-height:25%;
+}
+.main-reason{
+display:inline-block;
+}
+.same-class{
+height:120px;
+padding:10px;
+text-align:center;
+border:1px solid black;
+margin:0px;
+cursor:pointer;
+}
+.not-main{
+margin-top:5px;
+position:absolute;
+right: 10px;
+background-color:#1877f2;
+color:white;
+font-size: 0.8em;
+border-radius:6px;
+padding:10px;
+border:none;
+cursor:pointer;
+}
+.could-bemain{
+margin-top:40px;
+}
+.display-hide{
+display:none;
+}
