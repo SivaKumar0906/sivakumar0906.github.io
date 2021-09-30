@@ -1,0 +1,38 @@
+body{
+margin:20px;
+padding:0;
+font-family:'Gluten', cursive;
+font-size:larger;
+}
+h1{
+text-align:center;
+}
+input,button{
+padding:10px;
+outline:none;
+font-size:larger;
+}
+input{
+width:400px;
+}
+input:focus{
+border:2px solid #1877f2;
+transition:600ms;
+}
+button{
+border:#1877f2;
+border-radius:6px ;
+width:200px;
+cursor:pointer;
+margin:20px;
+margin-left:0px;
+color:white;
+background-color: #1877f2;
+}
+.output,p,#rainbow{
+font-size:larger;
+margin-left:0px;
+}
+::placeholder{
+color:black;
+}
