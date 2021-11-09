@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Irish+Grover&family=Mohave:wght@600&family=Raleway:wght@600&family=Zen+Kaku+Gothic+Antique:wght@900&display=swap');
+body{
+font-family: 'Irish Grover', cursive;
+font-family: 'Mohave', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Zen Kaku Gothic Antique', sans-serif;
+font-size: larger;
+padding:20px;
+}
+#year{
+margin:5px 0px 0px 2px;
+width: 100px;
+outline:none;
+font-size:larger;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+-webkit-appearance: none;
+}
+select{
+outline:none;
+}
+button{
+margin:10px;
+}
