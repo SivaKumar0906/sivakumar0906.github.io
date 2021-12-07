@@ -1,35 +1,28 @@
-let moveButton=document.getElementById("pla-y")
-let stopButton=document.getElementById("pla-z")
-let stackofArray=[2,4,8,16,32]
-let okI=document.getElementById("main-div")
-let increaseNUmber=document.getElementById("number")
-let one=1;
-let two=5;
+let bunchofArrays= ["",
+"1. Hyper Text Mark Up language",
+"  2. Hyper Text markiplier language",
+"3. It's not a programming language",
+ ' 4. Looser learning web development(web development is not actual programming looser']
 
+ let answer=document.getElementById("answer")
+ let submit=document.getElementById("submit")
+ let header=document.getElementById("header")
+ let hint=document.getElementById("hint")
 
-moveButton.addEventListener("click",function(){       
-let TrandomColor=Math.floor(Math.random()*256**3).toString(16)
-moveButton.style.backgroundColor="#"+TrandomColor
-})
-
-stopButton.addEventListener("click",function(){
-let noTrandomColor=Math.floor(Math.random()*256**3).toString(16)
-stopButton.style.backgroundColor="#"+noTrandomColor
-increaseNUmber.innerHTML=--one;
-})
-
-moveButton.addEventListener("click",function(){
-increaseNUmber.innerHTML=one++
-for(let siva=0;siva<stackofArray.length;siva++){
-let fine=document.createElement("div")
-fine.classList.add("try-it")
-okI.appendChild(fine)
-let randomColor=Math.floor(Math.random()*256**3).toString(16)
-fine.style.backgroundColor="#"+randomColor
-fine.innerHTML=stackofArray[siva]
-console.log(stackofArray[siva])
-moveButton.disable=true
+let siva=()=>{
+if(bunchofArrays[answer.value]===bunchofArrays[1]){
+header.innerHTML="True, you will get a job at FAANG (FACEBOOK, APPLE, AMAZON, GOOGLE, NETFLIX PACKAGE OF 180K$"
+}else{
+header.innerHTML="False, you won't get a job at FAANG (FACEBOOK, APPLE, AMAZON, GOOGLE, NETFLIX OF 180K$"
 }
-})
+if(answer.value < 1 | answer.value > 4){
+header.innerHTML="Choose between 1-4"
+}
+}
+submit.onclick=siva
 
 
+let hiNt=()=>{
+header.innerHTML="8251651820524201311811211812114721175".split("").reverse().join("")
+}
+hint.onclick=hiNt
